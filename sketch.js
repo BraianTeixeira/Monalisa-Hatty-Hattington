@@ -29,8 +29,8 @@ function draw() {
   //circle(110, 355, 30);
   //circle(310, 355, 30);
 
-  olhoX = map(mouseX, 0, 500, 85, 115)
-  olhoY = map(mouseY, 0, 500, 350, 380)
+  olhoX = map(mouseX, 0, 500, 85, 105)
+  olhoY = map(mouseY, 0, 500, 350, 365)
 
 if(mouseIsPressed){
 circle(olhoX, olhoY, 30);
